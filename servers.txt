@@ -1,6 +1,4 @@
-; Server Yapılandırma Dosyası
-; Format: ServerAdi=Isim,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset
-
 Server1=Alves2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
 Server2=Server 2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
 Server3=Server 3,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
+
