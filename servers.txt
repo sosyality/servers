@@ -1,7 +1,5 @@
 ; SidneS TargetDamage Server Listesi
-; Format: ServerKey=GorunenIsim,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,
-;         WallHackBase,WallHackOffset1,WallHackOffset2,
-;         SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
+; Format: ServerKey=GorunenIsim,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,WallHackBase,WallHackOffset1,WallHackOffset2,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
 ; Hex değerlerde 0x kullanmayın
 
 Server1=Alves2,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,005F2D68,0000000C,00000626
