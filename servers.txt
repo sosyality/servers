@@ -5,4 +5,9 @@
 ; 8 parametre: WallHack özelliği eklenir
 ; 11 parametre: SpeedHack özelliği eklenir
 
-Server1=Alves2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C,0x005F2D68,0x0000000C,0x000006E8,0x00000000,0x00000000,0x00000000
+Server1=Alves2
+Server1_TargetDamage=0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
+Server1_WallHack=005F2D68,0000000C,000006E8
+Server1_SpeedHack=00000000,00000000,00000000
+
+
