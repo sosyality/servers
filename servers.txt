@@ -1,4 +1,8 @@
-Server1=Alves2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
-Server2=Server 2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
-Server3=Server 3,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
+; Server Yapılandırma Dosyası
+; Format: ServerAdi=Isim,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset[,WallHackBase,WallHackOffset1,WallHackOffset2][,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2]
+; 
+; Minimum 5 parametre: TargetDamage için gerekli
+; 8 parametre: WallHack özelliği eklenir
+; 11 parametre: SpeedHack özelliği eklenir
 
+Server1=Alves2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C,0x005F2D68,0x0000000C,0x000006E8,0x00000000,0x00000000,0x00000000
