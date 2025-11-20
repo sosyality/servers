@@ -4,7 +4,7 @@
 ; Tüm adresler hexadecimal formatında olmalıdır (0x olmadan)
 
 ; Örnek Sunucu Yapılandırmaları:
- Server1=Server 1,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+ Server1=Server 1,398518,BC8A0,3D2D84,1C67C,5F2D68,C,6E8,0,0,0
  Server2=Server 2,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
  Server3=Server 3,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
 
@@ -23,5 +23,6 @@
 ; - SpeedHackBase: SpeedHack base adresi (hex)
 ; - SpeedHackOffset1: SpeedHack ilk offset (hex)
 ; - SpeedHackOffset2: SpeedHack ikinci offset (hex)
+
 
 
