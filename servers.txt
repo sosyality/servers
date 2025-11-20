@@ -1,3 +1,25 @@
-Server1=Alves2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
-Server2=Server 2,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
-Server3=Server 3,0x0398518,0x00BC8A0,0x03D2D84,0x001C67C
+; Servers.txt - Server Yapılandırma Dosyası
+; Bu dosya GitHub'dan otomatik olarak indirilir ve Servers.dat olarak cache'lenir
+; Format: ServerAdi=Isim,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,WallHackBase,WallHackOffset1,WallHackOffset2,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
+; Tüm adresler hexadecimal formatında olmalıdır (0x olmadan)
+
+; Örnek Sunucu Yapılandırmaları:
+Server1=Server 1,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+Server2=Server 2,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+Server3=Server 3,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+
+; Yeni sunucu eklemek için:
+; ServerX=Sunucu Adi,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,WallHackBase,WallHackOffset1,WallHackOffset2,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
+; 
+; Parametreler:
+; - Sunucu Adi: Sunucunun görünen adı
+; - NetPointer: Network pointer adresi (hex)
+; - BattleCall: Battle call fonksiyon adresi (hex)
+; - GetTargetVIDBase: Target VID base adresi (hex)
+; - GetTargetVIDOffset: Target VID offset değeri (hex)
+; - WallHackBase: WallHack base adresi (hex)
+; - WallHackOffset1: WallHack ilk offset (hex)
+; - WallHackOffset2: WallHack ikinci offset (hex)
+; - SpeedHackBase: SpeedHack base adresi (hex)
+; - SpeedHackOffset1: SpeedHack ilk offset (hex)
+; - SpeedHackOffset2: SpeedHack ikinci offset (hex)
