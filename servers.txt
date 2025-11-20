@@ -1,23 +1,34 @@
-;Sunucu Yapılandırmaları (Çalışan adresler):
-Server1=Alves2,0D38518,0A5C8A0,0D72D84,001C67C,005F2D68,C,6E8,00000000,0,0
-Server2=Server 2,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,C,6E8,00000000,0,0
-Server3=Server 3,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,C,6E8,00000000,0,0
+# SidneS TargetDamage - Server Configuration
+# 
+# Format:
+# [ServerName]
+# TargetDamage=NetPointerAddr,BattleCallAddr,VIDBase,VIDOffset
+# WallHack=Base,Offset1,Offset2
+# SpeedHack=Base,Offset1,Offset2
+# WaitDamage=PlayerBase,PlayerXOff,PlayerYOff,MobBase,MobVIDOff,MobXOff,MobYOff
+#
+# Adres Formatlari (hepsi desteklenir):
+# - 0x0D38518   (Cheat Engine formatı - 0x + 7 haneli hex)
+# - 0x00D38518  (0x + 8 haneli hex)
+# - 0D38518     (7 haneli hex)
+# - 0           (Özellik tanımlanmamış)
+#
+# Not: Cheat Engine'den adresleri direkt kopyalayıp yapıştırabilirsiniz!
 
-; Yeni sunucu eklemek için:
-; ServerX=Sunucu Adi,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,WallHackBase,WallHackOffset1,WallHackOffset2,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
-; 
-; Parametreler:
-; - Sunucu Adi: Sunucunun görünen adı
-; - NetPointer: Network pointer adresi (hex)
-; - BattleCall: Battle call fonksiyon adresi (hex)
-; - GetTargetVIDBase: Target VID base adresi (hex)
-; - GetTargetVIDOffset: Target VID offset değeri (hex)
-; - WallHackBase: WallHack base adresi (hex)
-; - WallHackOffset1: WallHack ilk offset (hex)
-; - WallHackOffset2: WallHack ikinci offset (hex)
-; - SpeedHackBase: SpeedHack base adresi (hex)
-; - SpeedHackOffset1: SpeedHack ilk offset (hex)
-; - SpeedHackOffset2: SpeedHack ikinci offset (hex)
+[Alves2]
+TargetDamage=0x0D38518,0x0A5C8A0,0x0D72D84,0x001C67C
+WallHack=0x05F2D68,0xC,0x6E8
+SpeedHack=0,0,0
+WaitDamage=0,0,0,0,0,0,0
 
+[TestServer]
+TargetDamage=0x0AC8518,0x07EC8A0,0x0B02D84,0x001C67C
+WallHack=0,0,0
+SpeedHack=0,0,0
+WaitDamage=0,0,0,0,0,0,0
 
-
+[Server3]
+TargetDamage=0,0,0,0
+WallHack=0,0,0
+SpeedHack=0,0,0
+WaitDamage=0,0,0,0,0,0,0
