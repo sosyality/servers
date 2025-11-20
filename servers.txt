@@ -1,12 +1,7 @@
-; Servers.txt - Server Yapılandırma Dosyası
-; Bu dosya GitHub'dan otomatik olarak indirilir ve Servers.dat olarak cache'lenir
-; Format: ServerAdi=Isim,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,WallHackBase,WallHackOffset1,WallHackOffset2,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
-; Tüm adresler hexadecimal formatında olmalıdır (0x olmadan)
-
-; Örnek Sunucu Yapılandırmaları:
- Server1=Alves2,00398518,000BC8A0,003D2D84,0001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
- Server2=Server 2,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
- Server3=Server 3,0398518,00BC8A0,03D2D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+;Sunucu Yapılandırmaları (Çalışan adresler):
+Server1=Alves2,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+Server2=Server 2,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
+Server3=Server 3,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,0000000C,000006E8,00000000,00000000,00000000
 
 ; Yeni sunucu eklemek için:
 ; ServerX=Sunucu Adi,NetPointer,BattleCall,GetTargetVIDBase,GetTargetVIDOffset,WallHackBase,WallHackOffset1,WallHackOffset2,SpeedHackBase,SpeedHackOffset1,SpeedHackOffset2
@@ -23,9 +18,3 @@
 ; - SpeedHackBase: SpeedHack base adresi (hex)
 ; - SpeedHackOffset1: SpeedHack ilk offset (hex)
 ; - SpeedHackOffset2: SpeedHack ikinci offset (hex)
-
-
-
-
-
-
