@@ -1,5 +1,5 @@
 ;Sunucu Yapılandırmaları (Çalışan adresler):
-Server1=Alves2,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,C,6E8,00000000,0,0
+Server1=Alves2,0D38518,0A5C8A0,0D72D84,001C67C,005F2D68,C,6E8,00000000,0,0
 Server2=Server 2,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,C,6E8,00000000,0,0
 Server3=Server 3,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,C,6E8,00000000,0,0
 
@@ -18,5 +18,6 @@ Server3=Server 3,0AC8518,07EC8A0,0B02D84,001C67C,005F2D68,C,6E8,00000000,0,0
 ; - SpeedHackBase: SpeedHack base adresi (hex)
 ; - SpeedHackOffset1: SpeedHack ilk offset (hex)
 ; - SpeedHackOffset2: SpeedHack ikinci offset (hex)
+
 
 
