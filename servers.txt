@@ -2,12 +2,13 @@
 # 
 # Format:
 # [ServerName]
+# ClientExe=metin2client.bin (veya client2.bin, game.exe, vb.)
 # TargetDamage=NetPointerAddr,BattleCallAddr,VIDBase,VIDOffset
 # WallHack=Base,Offset1,Offset2
 # SpeedHack=Base,Offset1,Offset2
 # WaitDamage=PlayerBase,PlayerXOff,PlayerYOff,MobBase,MobVIDOff,MobXOff,MobYOff
 #
-# Adres Formatlari (hepsi desteklenir):
+# Adres Formatları (hepsi desteklenir):
 # - 0x0D38518   (Cheat Engine formatı - 0x + 7 haneli hex)
 # - 0x00D38518  (0x + 8 haneli hex)
 # - 0D38518     (7 haneli hex)
@@ -16,18 +17,21 @@
 # Not: Cheat Engine'den adresleri direkt kopyalayıp yapıştırabilirsiniz!
 
 [Alves2]
+ClientExe=client2.bin
 TargetDamage=0x0D38518,0x0A5C8A0,0x0D72D84,0x001C67C
 WallHack=0x05F2D68,0xC,0x6E8
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
 
 [TestServer]
+ClientExe=onur.bin
 TargetDamage=0x0AC8518,0x07EC8A0,0x0B02D84,0x001C67C
 WallHack=0,0,0
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
 
 [Server3]
+ClientExe=game.bin
 TargetDamage=0,0,0,0
 WallHack=0,0,0
 SpeedHack=0,0,0
