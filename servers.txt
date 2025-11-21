@@ -26,16 +26,18 @@ WaitDamage=0,0,0,0,0,0,0
 [TestServer]
 ClientExe=onur.bin
 TargetDamage=0x0AC8518,0x07EC8A0,0x0B02D84,0x001C67C
-WallHack=0,0,0
+WallHack=0x0D72D68,0xC,0x6E8
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
 
 [SidneS]
 ClientExe=game.bin
 TargetDamage=0,0,0,0
-WallHack=0,0,0
+WallHack=0x0D72D68,0xC,0x6E8
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
+
+
 
 
 
