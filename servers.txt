@@ -6,7 +6,16 @@
 # TargetDamage=NetPointerAddr,BattleCallAddr,VIDBase,VIDOffset
 # WallHack=Base,Offset1,Offset2
 # SpeedHack=Base,Offset1,Offset2
-# WaitDamage=PlayerBase,PlayerXOff,PlayerYOff,MobBase,MobVIDOff,MobXOff,MobYOff
+# WaitDamage=CPythonCharacterManager,CPythonInstanceManager,Instance,C_CoordX,C_CoordY,C_IsVID,C_IsRadarType
+#
+# WaitDamage Açıklama (Gelişmiş Sistem):
+# - CPythonCharacterManager: Player manager base adresi
+# - CPythonInstanceManager: Mob/Entity manager base adresi
+# - Instance: Instance pointer offset
+# - C_CoordX: X koordinat offset
+# - C_CoordY: Y koordinat offset
+# - C_IsVID: VID offset
+# - C_IsRadarType: Entity type offset (0=mob, 6=player)
 #
 # Adres Formatları (hepsi desteklenir):
 # - 0x0D38518   (Cheat Engine formatı - 0x + 7 haneli hex)
@@ -18,29 +27,28 @@
 
 [Alves2]
 ClientExe=client2.bin
-TargetDamage=0x0D38518,0x0A5C8A0,0x0D72D84,0x001C67C
-WallHack=0x0D72D68,0xC,0x6E8
-SpeedHack=0x0D72D68,0xC,0x626
-WaitDamage=0x58A344,0x5DC408,0x14,0x794,0x798,0x898,0x728
+TargetDamage=0xC58548,0xA766D0,0xC58548,0x001C67C
+WallHack=0x05F2D68,0xC,0x6E8
+SpeedHack=0,0,0
+WaitDamage=0xC58548,0x2F93AC,0x14,0x72C,0x730,0x820,0x6C0
 
 [TestServer]
-ClientExe=onur.bin
-TargetDamage=0x0AC8518,0x07EC8A0,0x0B02D84,0x001C67C
+ClientExe=client2.bin
+TargetDamage=0x0D38518,0x0A5C8A0,0x0D72D84,0x001C67C
 WallHack=0x0D72D68,0xC,0x6E8
-SpeedHack=0x0D72D68,0xC,0x626
-WaitDamage=0x58A344,0x5DC408,0x14,0x794,0x798,0x898,0x728
+SpeedHack=0,0,0
+WaitDamage=0x2CF210,0x2CF3AC,0x0,0x794,0x798,0x820,0x728
 
-[SidneS]
+[Server3]
 ClientExe=game.bin
 TargetDamage=0,0,0,0
-WallHack=0x0D72D68,0xC,0x6E8
-SpeedHack=0x0D72D68,0xC,0x626
-WaitDamage=0x58A344,0x5DC408,0x14,0x794,0x798,0x898,0x728
+WallHack=0,0,0
+SpeedHack=0,0,0
+WaitDamage=0,0,0,0,0,0,0
 
-
-
-
-
-
-
-
+[7xServer]
+ClientExe=metin2client.bin
+TargetDamage=0,0,0,0
+WallHack=0,0,0
+SpeedHack=0,0,0
+WaitDamage=0x1A4E104,0x1A4E378,0x14,0x69C,0x6A0,0x79C,0x728
