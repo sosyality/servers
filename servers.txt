@@ -30,9 +30,10 @@ WallHack=0,0,0
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
 
-[Server3]
+[SidneS]
 ClientExe=game.bin
 TargetDamage=0,0,0,0
 WallHack=0,0,0
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
+
