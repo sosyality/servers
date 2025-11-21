@@ -19,7 +19,7 @@
 [Alves2]
 ClientExe=client2.bin
 TargetDamage=0x0D38518,0x0A5C8A0,0x0D72D84,0x001C67C
-WallHack=0x05F2D68,0xC,0x6E8
+WallHack=0x0D72D68,0xC,0x6E8
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
 
@@ -36,4 +36,5 @@ TargetDamage=0,0,0,0
 WallHack=0,0,0
 SpeedHack=0,0,0
 WaitDamage=0,0,0,0,0,0,0
+
 
