@@ -1,2 +1,2 @@
-VERSION=2.5
+VERSION=2.0
 DOWNLOAD=https://github.com/sosyality/releases/injector.exe
