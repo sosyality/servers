@@ -1,0 +1,202 @@
+# ============================================================
+# Metin2 External Menu - Server Configuration Template
+# ============================================================
+# 
+# Bu dosya oyun client'ının offset'lerini tanımlar.
+# Cheat Engine ile bulduğunuz adresleri buraya yazabilirsiniz.
+# 
+# Format: 0x + hex değer (örn: 0x2F9180 veya 0x002F9180)
+# Eğer bir offset bilinmiyorsa 0 yazın.
+#
+# ============================================================
+
+# ============================================================
+# [ServerName] - Kendi server isminizi yazın
+# ============================================================
+
+[Alves2]
+ClientExe=client2.bin
+CPythonCharacterManager=0xC58548
+CPythonInstanceManager=0x2F93AC
+CPythonChatManager=0x2F9220
+CPythonPlayer=0x2F9198
+CPythonNetworkStream=0x2F56AC
+SetAccountConnector=0x2F56B0
+Instance=0x14
+Mng=0x4
+GetName=0x84
+GetPassword=0x9D
+C_CoordX=0x72C
+C_CoordY=0x730
+C_CoordZ=0x734
+C_GetPixelPositionX=0x4EC
+C_GetPixelPositionY=0x4F0
+C_GetPixelPositionZ=0x4F4
+C_ModelX=0x1F0
+C_ModelY=0x1F4
+C_ModelZ=0x1F8
+C_Name=0x10
+C_Lvl=0x44
+C_IsVID=0x820
+C_IsDead=0x708
+C_IsRotation=0x77C
+C_IsRadarType=0x6C0
+C_IsCharacterType=0x6C4
+C_AttackSpeed=0x760
+C_MovementSpeed=0x75C
+C_SwordRange=0x758
+C_NoClip=0x828
+C_NoKnockBack=0x6F4
+C_OneHit=0x6BC
+C_Fixing=0x81C
+C_DamageFix=0x714
+MoveToDestPosition=0x4BA50
+GetPixelPosition=0x4BDD0
+InstanceBaseGetPixelPosition=0x4BDD0
+GetMainCharacterPosition=0x95000
+SendCharacterStatePacket=0x87EF0
+GetStatus=0x95890
+SetStatus=0x95730
+SetAffect=0x5FB60
+SetAttackKeyState=0x9A910
+SendBattlePacked=0x8A830
+GetTargetVID=0x998D0
+SendShootPacket=0x8ABB0
+SendAddFlyTargeting=0x8AC00
+ClickSkillSlot=0xA0530
+PickCloseItem=0x99840
+SendItemUsePacket=0x90D30
+SendItemPickUpPacket=0x91250
+SendChatPacket=0x880D0
+SendEmoticon=0x80FB0
+Refresh=0x5D0D0
+SetArmor=0x43CA0
+
+[TestServer]
+ClientExe=client2.bin
+CPythonCharacterManager=0x2CF210
+CPythonInstanceManager=0x2CF3AC
+CPythonChatManager=0x2F9220
+CPythonPlayer=0x2F9198
+CPythonNetworkStream=0x2F56AC
+SetAccountConnector=0x2F56B0
+Instance=0x0
+Mng=0x4
+GetName=0x84
+GetPassword=0x9D
+C_CoordX=0x794
+C_CoordY=0x798
+C_CoordZ=0x734
+C_GetPixelPositionX=0x4EC
+C_GetPixelPositionY=0x4F0
+C_GetPixelPositionZ=0x4F4
+C_ModelX=0x1F0
+C_ModelY=0x1F4
+C_ModelZ=0x1F8
+C_Name=0x10
+C_Lvl=0x44
+C_IsVID=0x820
+C_IsDead=0x708
+C_IsRotation=0x77C
+C_IsRadarType=0x728
+C_IsCharacterType=0x6C4
+C_AttackSpeed=0x760
+C_MovementSpeed=0x75C
+C_SwordRange=0x758
+C_NoClip=0x828
+C_NoKnockBack=0x6F4
+C_OneHit=0x6BC
+C_Fixing=0x81C
+C_DamageFix=0x714
+MoveToDestPosition=0x4BA50
+GetPixelPosition=0x4BDD0
+InstanceBaseGetPixelPosition=0x4BDD0
+GetMainCharacterPosition=0x95000
+SendCharacterStatePacket=0x87EF0
+GetStatus=0x95890
+SetStatus=0x95730
+SetAffect=0x5FB60
+SetAttackKeyState=0x9A910
+SendBattlePacked=0x8A830
+GetTargetVID=0x998D0
+SendShootPacket=0x8ABB0
+SendAddFlyTargeting=0x8AC00
+ClickSkillSlot=0xA0530
+PickCloseItem=0x99840
+SendItemUsePacket=0x90D30
+SendItemPickUpPacket=0x91250
+SendChatPacket=0x880D0
+SendEmoticon=0x80FB0
+Refresh=0x5D0D0
+SetArmor=0x43CA0
+
+[7xServer]
+ClientExe=metin2client.bin
+CPythonCharacterManager=0x1A4E104
+CPythonInstanceManager=0x1A4E378
+CPythonChatManager=0x2F9220
+CPythonPlayer=0x2F9198
+CPythonNetworkStream=0x2F56AC
+SetAccountConnector=0x2F56B0
+Instance=0x14
+Mng=0x4
+GetName=0x84
+GetPassword=0x9D
+C_CoordX=0x69C
+C_CoordY=0x6A0
+C_CoordZ=0x734
+C_GetPixelPositionX=0x4EC
+C_GetPixelPositionY=0x4F0
+C_GetPixelPositionZ=0x4F4
+C_ModelX=0x1F0
+C_ModelY=0x1F4
+C_ModelZ=0x1F8
+C_Name=0x10
+C_Lvl=0x44
+C_IsVID=0x79C
+C_IsDead=0x708
+C_IsRotation=0x77C
+C_IsRadarType=0x728
+C_IsCharacterType=0x6C4
+C_AttackSpeed=0x760
+C_MovementSpeed=0x75C
+C_SwordRange=0x758
+C_NoClip=0x828
+C_NoKnockBack=0x6F4
+C_OneHit=0x6BC
+C_Fixing=0x81C
+C_DamageFix=0x714
+MoveToDestPosition=0x4BA50
+GetPixelPosition=0x4BDD0
+InstanceBaseGetPixelPosition=0x4BDD0
+GetMainCharacterPosition=0x95000
+SendCharacterStatePacket=0x87EF0
+GetStatus=0x95890
+SetStatus=0x95730
+SetAffect=0x5FB60
+SetAttackKeyState=0x9A910
+SendBattlePacked=0x8A830
+GetTargetVID=0x998D0
+SendShootPacket=0x8ABB0
+SendAddFlyTargeting=0x8AC00
+ClickSkillSlot=0xA0530
+PickCloseItem=0x99840
+SendItemUsePacket=0x90D30
+SendItemPickUpPacket=0x91250
+SendChatPacket=0x880D0
+SendEmoticon=0x80FB0
+Refresh=0x5D0D0
+SetArmor=0x43CA0
+
+# ============================================================
+# NASIL KULLANILIR?
+# ============================================================
+# 
+# 1. Kendi server'ınız için yeni bir section oluşturun: [MyServer]
+# 2. ClientExe= kısmına client executable ismini yazın
+# 3. Cheat Engine ile offset'leri bulun
+# 4. Bulduğunuz offset'leri buraya yazın (0x formatında)
+# 5. DLL'i inject edin, otomatik olarak bu offset'leri kullanacak
+#
+# Not: Bilinmeyen offset'ler için 0 yazabilirsiniz
+# ============================================================
